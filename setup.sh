@@ -5,7 +5,7 @@ REPO="http://myrid.my.id/os/"
 REPO2="https://raw.githubusercontent.com/juragansc1/os/main/"
 function CEKIP () {
 MYIP=$(curl -sS ipv4.icanhazip.com)
-IPVPS=$(curl -sS https://raw.githubusercontent.com/juragansc1/izinvps/main/ip | grep $MYIP | awk '{print $4}')
+IPVPS=$(curl -sS https://raw.githubusercontent.com/juragansc1/izinvps/main/ipx | grep $MYIP | awk '{print $4}')
 if [[ $MYIP == $IPVPS ]]; then
 domain
 Pasang
